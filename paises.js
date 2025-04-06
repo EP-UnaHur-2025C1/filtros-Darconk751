@@ -20,8 +20,6 @@ class FiltroPaises {
     })();
   }
 
-  // Comentario de prueba
-
   addFiltro(name, fnFiltro) {
     this.filtros.push({ name, fnFiltro });
   }
